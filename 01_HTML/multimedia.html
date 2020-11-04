@@ -5,11 +5,57 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MultiMedia Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="../02_CSS/common.css">
 	<link rel="stylesheet" href="../02_CSS/multimedia.css">
 </head>
 
 <body>
 	<div class="wrap">
+		<!-- header -->
+		<div class="header">
+
+			<div class="lang-header">
+				<ul>
+					<li>
+						<a href="#">CHINESE</a>
+					</li>
+					<li>
+						<a href="#">JAPANESE</a>
+					</li>
+					<li>
+						<a href="#">ENGLISH</a>
+					</li>
+					<li>
+						<a href="#">KOREAN</a>
+					</li>
+				</ul>
+			</div>
+			<div class="logo">
+				<h1>
+					<a href="/main.html">
+						<span class="logo_ygfamily">YG FAMILY</span>
+					</a>
+				</h1>
+			</div>
+			<div id="nav-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menuBar">
+				<ul>
+					<li><a href="#">MULTIMEDIA</a></li>
+					<li><a href="#">SELECT</a></li>
+					<li><a href="#">WITH</a></li>
+					<li><a href="#">AUDITION</a></li>
+					<li><a href="#">ACTORS</a></li>
+					<li><a href="#">ARTISTS</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="#">NOTICE</a></li>
+				</ul>
+			</div>
+		</div>
 		<hr>
 		<!-- content -->
 		<div class="container">
@@ -28,8 +74,8 @@
 			<!-- content-1 -->
 			<div class="content-1">
 				<ul class="tab">
-					<li><a href="#">MUSIC VIDEO</a></li>
-					<li><a href="#">DOWNLOAD</a></li>
+					<li class="col-md-3 col-lg-2 text-center"><a href="#">MUSIC VIDEO</a></li>
+					<li class="col-md-3 col-lg-2 text-center"><a href="#">DOWNLOAD</a></li>
 				</ul>
 				<div class="mv">
 					<iframe src="https://www.youtube.com/embed/1eWm7NwjGco" frameborder="0"
@@ -45,7 +91,6 @@
 					</div>
 				</div>
 			</div>
-			<hr>
 			<div class="content-2">
 				<div class="list-wrap">
 					<form action="#" method="GET">
@@ -180,6 +225,9 @@
 			<hr>
 		</div>
 	</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../03_JS/common.js"></script>
 </body>
 
 </html>
