@@ -2,6 +2,9 @@
         --grey: rgb(200, 200, 202);
         --red: rgb(190, 0, 40);
         --black: rgb(40, 40, 40);
+        --white: rgb(255,255,255);
+        --dark-grey: rgb(150,150,150);
+        --grey: rgb(200,200,200);
     }
 
     .header {
@@ -13,7 +16,7 @@
 
 
     .logo_ygfamily {
-        background-image: url(../00_Common/logo_ygfamily.svg);
+        background-image: url(../04_image/common/logo_ygfamily.svg);
         display: inline-block;
         width: 138px;
         height: 38px;

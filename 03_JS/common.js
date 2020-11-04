@@ -15,19 +15,18 @@ $(window).on('resize', function () {
     var windowWidth = $(window).width();
     var menubar = $('.menuBar');
 
-    console.log($(menubar).css('display'));
     if (windowWidth > 719 && $(menubar).css('display') == 'flex') {
         toggleNavIcon();
         toggleContentFade();
         toggleLogoFade();
         $(menubar).css('display', 'inline-block');
     }
-    if (windowWidth < 719 && $(menubar).css('display') == 'block') {
+    if (windowWidth < 719 && $(menubar).css('display') == 'inline-block') {
         $(menubar).css('display', 'none');
     }
 });
 function toggleContentFade() {
-    var content = $('.content');
+    var content = $('.container');
     if ($(content).css('display') != "none") {
         $(content).css('display', 'none');
     } else {
