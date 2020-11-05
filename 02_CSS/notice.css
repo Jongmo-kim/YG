@@ -1,0 +1,178 @@
+@charset="UTF-8";
+
+* {
+    font-family: "Titillium Web", "RixSGo", sans-serif;
+}
+
+.wrap {
+    width: 970px;
+    margin: 0 auto;
+}
+
+/*상단 오른쪽 location----------------------------*/
+.location {
+    text-align: right;
+    overflow: hidden;
+}
+
+.location > ul {
+    list-style: none;
+    float: right;
+}
+
+.location > ul > li {
+    font-size: 15px;
+    float: left;
+}
+
+.location > ul > li > a {
+    color: black;
+}
+
+/*탭 메뉴 설정--------------------------------------------*/
+
+.noti_tap {
+    overflow: hidden;
+    width: 100%;
+}
+
+.noti_tap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 42px;
+    border-bottom: 1px solid #C8C8C8;
+    float: left;
+}
+
+.noti_tap li {
+    list-style: none;
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: #ebebeb;
+    border: 1px solid #C8C8C8;
+    border-bottom: none;
+    text-align: center;
+}
+
+.noti_tap a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    line-height: 38px;
+}
+
+/*내부 콘텐츠 속성-----------------------------------------*/
+
+.noti_cont {
+    width: 100%;
+}
+
+.list_header {
+    padding-bottom: 10px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+
+#no {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#title_date {
+    padding-left: 400px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.list_title {
+    overflow: hidden;
+}
+
+.list_title ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_title li {
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px;
+}
+
+.list_title a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.list_title a:hover {
+    font-weight: bolder;
+}
+
+#num {
+    color: #c82123;
+    ;
+    font-size: 15px;
+    padding-left: 15px;
+    ;
+}
+
+#date {
+    font-size: 12px;
+    color: #C8C8C8;
+    padding-left: 20px;
+}
+
+/*숨긴 li 속성-----------------------------------------------*/
+
+.list_sub p {
+    font-size: 10px;
+}
+
+.list_sub {
+    background-color: #f7f7f7;
+}
+
+/*페이지 마크 속성-------------------------------------------*/
+
+.pagemark {
+    margin: 0 auto;
+    width: 800px;
+    padding: 40px;
+}
+
+.pagemark > ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 150px;
+}
+
+.pagemark > ul > li {
+    float: left;
+    width: 30px;
+}
+
+.pagemark > ul > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pagemark > ul > li > a:hover {
+    font-weight: bolder;
+    color: #ffffff;
+    background: #ebebeb;
+}

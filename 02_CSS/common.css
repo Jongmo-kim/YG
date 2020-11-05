@@ -13,8 +13,6 @@
         height: 138px;
     }
 
-
-
     .logo_ygfamily {
         background-image: url(../04_image/common/logo_ygfamily.svg);
         display: inline-block;
@@ -103,8 +101,10 @@
     .content{
         background-color: var(--red);
     }
+
+
     @media (max-width: 720px) {
-        .header{
+        .header-wrap{
             position: relative;
             border-top: none;
         }
