@@ -6,10 +6,14 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 
 $('#nav-icon').on('click', function () {
+    
     toggleNavIcon();
     toggleMenuBarDisplayFlex();
     toggleContentFade();
     toggleLogoFade();
+    $('html','.header','.lang-header').toggleClass('hidden');
+    $('#overlay').fadeToggle();
+    
 });
 $(window).on('resize', function () {
     var windowWidth = $(window).width();

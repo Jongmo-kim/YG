@@ -6,33 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!--     CSS -->
-    <link rel="stylesheet" href="../02_CSS/common.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
 </head>
 <style>
-    .banner {
-        max-width: 970px;
-        padding-bottom: 30px;
-        background: url(../04_image/common/bg_mainvisual.gif) no-repeat center bottom;
-    }
+    
 </style>
 <!--
-필수
-1. 메인 테마 완성
-2. 메인 반응형 완성
-3. 반응형시 모든 요소 사라지게
+시간남으면 
 
-서브
-1.반응형 헤더 버그잡기
-2.반응형 푸터 faimliy site ul 크기잡기
-3. 푸터 요소 정렬 
-4. 반응형 헤더 아이콘 클릭시 언어 표기
-5. 메뉴 선택시 해당 메뉴 점멸 
+반응형 nav 
+버그 고치기
+icon 클릭시 lang나오게
+
+일반 메뉴
+해당 메뉴선택시 메뉴 점멸 상태 
 -->
 
 <body>
     <div class="wrap">
+       <div id="overlay">
+           
+       </div>
         <!-- header -->
         <div class="header">
 
@@ -54,7 +48,7 @@
             </div>
             <div class="logo">
                 <h1>
-                    <a href="/main.html">
+                    <a href="../01_HTML/main.html">
                         <span class="logo_ygfamily">YG FAMILY</span>
                     </a>
                 </h1>
@@ -66,14 +60,13 @@
             </div>
             <div class="menuBar">
                 <ul>
-                    <li><a href="#">MULTIMEDIA</a></li>
+                        <li><a href="../01_HTML/multimedia_DList.html">MULTIMEDIA</a></li>
                     <li><a href="#">SELECT</a></li>
                     <li><a href="#">WITH</a></li>
-                    <li><a href="#">AUDITION</a></li>
-                    <li><a href="#">ACTORS</a></li>
+                    <li><a href="../01_HTML/entertainer.html">ENTERTAINER</a></li>
                     <li><a href="#">ARTISTS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">NOTICE</a></li>
+                    <li><a href="../01_HTML/news.html">NEWS</a></li>
+                    <li><a href="../01_HTML/notice_page1.html">NOTICE</a></li>
                 </ul>
             </div>
         </div>
@@ -123,6 +116,12 @@
                 </a>
             </div>
         </div>
+        <div class="content">
+            <div class="col-item"></div>
+            <div class="col-item"></div>
+            <div class="col-item"></div>
+            <div class="col-item"></div>
+        </div>
         <!-- footer -->
         <div class="footer-wrap">
             <div class="nav_menu">
@@ -155,11 +154,28 @@
             </div>
         </div>
     </div>
-    <!--    jQuery-->
+<!--    jQuery-->
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="../03_JS/common.js"></script>
+<!--    //jQuery-->
 
+<!--    bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--    //bootstrap-->
+    
+<!--    Bootstrap 기본설정 제거-->
+   <style>
+        a:focus, a:hover {
+            color: none;
+            text-decoration:none;
+       }
+    </style>
+<!--    //Bootstrap 기본설정 제거-->
+
+<!--   CSS-->
+    <link rel="stylesheet" href="../02_CSS/common.css">
+    <link rel="stylesheet" href="../02_CSS/main.css">
+<!--    //CSS-->
 </body></html>
