@@ -112,7 +112,12 @@ a {
 .content {
     background-color: var(--red);
 }
+.footer-wrap a{
+    color: #282828;
+    text-decoration: none;
+    display: inline-block;
 
+}
 @media (max-width: 720px) {
     .header {
         position: relative;
