@@ -1,0 +1,174 @@
+
+        body {
+            margin: 0 auto;
+            width: 970px;
+        }
+
+        .content-top {
+            width: 970px;
+            ;
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        p {
+            float: left;
+            font-weight: bolder;
+        }
+
+        .button-top {
+            float: right;
+            line-height: 3;
+        }
+
+        .button-top>input {
+            background-color: white;
+            border: none;
+
+        }
+
+        .button-top>span {
+            font-size: 10px;
+
+        }
+
+        .context-1 {
+            clear: both;
+            width: 970px;
+            height: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .context-2 {
+            display: none;
+            height: 100%;
+        }
+
+        .imgback {
+            background-color: white;
+            float: left;
+            width: calc(100%/5);
+            max-width: 174px;
+            height: 180px;
+            margin: 10px;
+            border: none;
+            padding: 0px;
+
+        }
+
+        .imgbox {
+            width: 174px;
+            height: 140px;
+            -webkit-filter: grayscale(100%);
+            filter: gray;
+        }
+
+        .name {
+
+            background-color: #282828;
+            border: none;
+            height: 40px;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+            line-height: 40px;
+        }
+
+        .imgnav {
+            margin: 0 auto;
+            width: 1000px;
+            height: 150px;
+            background-color: #dcdcdc;
+            overflow: hidden;
+        }
+
+        .navbutton {
+            float: left;
+        }
+
+        .navbutton>input {
+            width: 50px;
+            height: 130px;
+            background-color: #282828;
+            border: none;
+
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+
+        .navimgbox>.imgbox2 {
+            width: calc(100%/6);
+            max-width: 110px;
+
+            margin-right: 20px;
+            margin-left: 20px;
+            float: left;
+            height: 130px;
+
+        }
+
+
+        #box2 {
+            display: none;
+        }
+
+        #box3 {
+            display: none;
+        }
+
+        .paginate {
+            margin: 0 auto;
+            width: 1000px;
+            height: 20px;
+            text-align: center;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        .paginate>input {
+            background-color: lightgray;
+            border: none;
+            width: 10px;
+            height: 10px;
+            margin: 2px;
+            transition-duration: 0.5s;
+
+        }
+
+        .paginate>input:first-child {
+            background-color: brown;
+
+        }
+
+        .about {
+            width: 1000px;
+            margin: 0 auto;
+            clear: both;
+            height: 100%;
+        }
+
+        .about-text {
+            height: 100%;
+            display: none;
+            overflow: hidden;
+        }
+
+        .about-text>.text {
+            width: calc(90%/2);
+            float: left;
+            padding: 20px;
+            font-size: 13px;
+            line-height: 22px;
+        }
+
+        #fbicon2,
+        #twicon2 {
+            display: none;
+        }
+
