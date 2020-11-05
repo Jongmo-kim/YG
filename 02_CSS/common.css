@@ -119,7 +119,6 @@ a {
         border-top: none;
     }
 
-<<<<<<< HEAD
     .logo_ygfamily {
         background-image: url(../04_image/common/logo_ygfamily.svg);
         display: inline-block;
@@ -129,24 +128,24 @@ a {
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 0;
-=======
+    }
+    
     .menuBar {
-        display: none;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        position: absolute;
-        height: 95vh;
-        top: 0;
-        z-index: 999;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    height: 95vh;
+    top: 0;
+    z-index: 999;
         
     }
 
     .menuBar > ul {
         width: 100%;
 
->>>>>>> de46599675c86cf91e18c45b72e2b9c1dac99283
     }
 
     .menuBar > ul > li {
@@ -367,7 +366,6 @@ a {
 
     }
 
-<<<<<<< HEAD
     .menuBar>ul>li>a {
         display: block;
         font-size: 16px;
@@ -483,27 +481,5 @@ a {
             -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
         }
-=======
-    .copyright {
-        position: absolute;
-        top:144px;
-    }
-
-    .family_site {
-        position: absolute;
-        left: 0;
-        top: 100px;
-        z-index:99;
-
-    }
-
-    .footer-wrap .family_site li,
-    .footer-wrap .family_site li a,
-    .footer-wrap .family_site li span {
-        width: 100%;
-        height: 32px;
-        font-size: 14px;
-        line-height: 32px;
->>>>>>> de46599675c86cf91e18c45b72e2b9c1dac99283
     }
 }
