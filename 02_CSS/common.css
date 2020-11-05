@@ -430,7 +430,7 @@ a {
             height: 32px;
             top: 60px;
             right: 24px;
-            z-index: 99;
+            z-index: 101;
             cursor: pointer;
             -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
