@@ -12,6 +12,17 @@
     .footer-wrap{
         min-width: 819px;
     }
+/*overlay CSS*/
+    #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 1);
+}
 /*header Css*/
 .header {
     position: relative;
@@ -129,17 +140,16 @@ a {
         background-repeat: no-repeat;
         font-size: 0;
     }
-    
     .menuBar {
-    display: none;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    height: 95vh;
-    top: 0;
-    z-index: 999;
+        display: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        height: 95vh;
+        top: 0;
+        z-index: 999;
         
     }
 
@@ -260,10 +270,13 @@ a {
 
 .footer-wrap a {
     color: var(--black);
+    display: inline-block;
 }
 
 .footer-wrap a:hover {
     font-weight: bolder;
+    text-decoration: none;
+    
 }
 
 .ico_recruit {
@@ -291,12 +304,15 @@ a {
     position: absolute;
     right: 0;
     bottom: 0;
+    
 }
-
+.family_stie ul{
+    overflow: hidden;
+}
 .family_site li {
     width: 150px;
     text-indent: 15px;
-
+    
     background-color: var(--grey);
 }
 
@@ -430,7 +446,7 @@ a {
             height: 32px;
             top: 60px;
             right: 24px;
-            z-index: 101;
+            z-index: 999999999999999;
             cursor: pointer;
             -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -481,5 +497,35 @@ a {
             -webkit-transform: rotate(-135deg);
             transform: rotate(-135deg);
         }
+    .copyright {
+        position: absolute;
+        top:144px;
     }
+
+    .family_site {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -55px;
+        z-index:99;
+        overflow: hidden;
+        height: 32px;
+    }
+    .family_site:hover{
+        height: 224px;
+    }
+
+    .footer-wrap .family_site li,
+    .footer-wrap .family_site li a,
+    .footer-wrap .family_site li span {
+        width: 100%;
+        height: 32px;
+        font-size: 14px;
+        line-height: 32px;
+        overflow: hidden;
+        display: block;
+    }
+    .footer-wrap .family_site.active li span, .footer-wrap .family_site:hover li span {
+    background-color: #969696;
+}
 }
