@@ -30,7 +30,10 @@ p {
     border: none;
 
 }
+.button-top > input:first-child {
+   font-weight: bold;
 
+}
 .button-top > span {
     font-size: 10px;
 
