@@ -67,7 +67,7 @@
 
 /*내부 콘텐츠 속성-----------------------------------------*/
 
-.noti_cont {
+.noti_cont1 {
     width: 100%;
 }
 
@@ -135,7 +135,7 @@
 /*숨긴 li 속성-----------------------------------------------*/
 
 .list_sub p {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .list_sub {
@@ -176,3 +176,14 @@
     color: #ffffff;
     background: #ebebeb;
 }
+
+#pageNum {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 720px) {
+    
+}
+
+    

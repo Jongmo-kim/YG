@@ -39,7 +39,7 @@
             </div>
             <div class="logo">
                 <h1>
-                    <a href="/main.html">
+                    <a href="main.html">
                         <span class="logo_ygfamily">YG FAMILY</span>
                     </a>
                 </h1>
@@ -51,14 +51,12 @@
             </div>
             <div class="menuBar">
                 <ul>
-                    <li><a href="#">MULTIMEDIA</a></li>
+                    <li><a href="../01_HTML/multimedia_DList.html">MULTIMEDIA</a></li>
                     <li><a href="#">SELECT</a></li>
                     <li><a href="#">WITH</a></li>
-                    <li><a href="#">AUDITION</a></li>
-                    <li><a href="#">ACTORS</a></li>
-                    <li><a href="#">ARTISTS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="">NOTICE</a></li>
+                    <li><a href="../01_HTML/entertainer.html">ENTERTAINER</a></li>
+                    <li><a href="../01_HTML/">NEWS</a></li>
+                    <li><a href="../01_HTML/notice.html">NOTICE</a></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +67,7 @@
             <div class="title">
                 <div class="location">
                     <ul>
-                        <li><a href="#"><b>Home</b> &nbsp;&lt;&nbsp;</a></li>
+                        <li><a href="main.html"><b>Home</b> &nbsp;&lt;&nbsp;</a></li>
                         <li> Notice</li>
                     </ul>
                 </div>
@@ -84,7 +82,7 @@
                             <li><a href="#">ARTISTS/ACTORS</a></li>
                         </ul>
                     </div>
-                    <div class="noti_cont">
+                    <div class="noti_cont1">
                         <div class="list_header">
                             <span id="no">No</span><span id="title_date">Title/Date</span>
                         </div>
@@ -106,21 +104,18 @@
                                     <p>첫 솔로앨범 [XX]를 통해 강렬한 솔로 아티스트로서의 존재감을 드러낸 MINO.</p>
                                     <p>12개의 인상깊은 #Take와 같이 오래도록 기억되길 바라는 아티스트 프로듀서 송민호의 마음을 담았습니다.</p>
                                 </li>
-
                                 <li class="list_main"><span id="num">472</span><a href="#">BLACKPINK 1st Full Album 1st VlNYL LP LIMTED EDITION 발매 안내</a><span id="date">2020.09.07</span></li>
                                 <li class="list_sub" style="display: none">
                                     <p>BLACKPINK 1st Full Album 1st VlNYL LP LIMTED EDITION 발매 안내입니다.</p>
                                     <p>전 세계적 파급력을 증명한 카리스마 넘치는 힙합 사운드 'How You Like That'부터</p>
                                     <p>팝스타 셀레나 고메즈와 콜라보한 톡톡튀는 경쾌한 멜로디의 'Ice Cream'까지!</p>
                                 </li>
-
                                 <li class="list_main"><span id="num">471</span><a href="#">[BLACKPINK SUMMER DIARY IN SEOUL] 발매 안내</a><span id="date">2020.08.28</span></li>
                                 <li class="list_sub" style="display: none">
                                     <p>[BLACKPINK SUMMER DIARY IN SEOUL] 발매안내 입니다.</p>
                                     <p>블랙핑크 멤버들만의 우아하면서 상큼하고 사랑스러운 다양한 매력을 담은</p>
                                     <p>152p에 달하는 포토북과 대형 포토카드 세트, 엽서 세트, 폴라로이드 세트 등으로 구성되어 있습니다.</p>
                                 </li>
-
                                 <li class="list_main"><span id="num">470</span><a href="#">태양 다큐멘터리 [태양이 지지 않은 밤] 서비스 안내</a><span id="date">2020.08.14</span></li>
                                 <li class="list_sub" style="display: none">
                                     <p>태양 다큐멘터리 [태양이 지지 않은 밤] 서비스 안내입니다.</p>
@@ -137,7 +132,7 @@
                         </div>
                         <div class="pagemark">
                             <ul>
-                                <li><a href="#">1</a></li>
+                                <li><a href="#" id="pageNum">1</a></li>
                                 <li><a href="#">2</a></li>
                                 <li><a href="#">3</a></li>
                                 <li><a href="#">4</a></li>
@@ -146,7 +141,7 @@
                         </div>
                     </div>
 
-                    <div class="noti_cont">
+                    <div class="noti_cont1">
                         <div class="list_header">
                             <span id="no">No</span><span id="title_date">Title/Date</span>
                         </div>
@@ -196,7 +191,7 @@
 
                         <div class="pagemark">
                             <ul>
-                                <li><a href="#">1</a></li>
+                                <li><a href="#" id="pageNum">1</a></li>
                                 <li><a href="#">2</a></li>
                                 <li><a href="#">3</a></li>
                                 <li><a href="#">4</a></li>
@@ -204,12 +199,11 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
-        <!-- footer -->
+                <!-- footer -->
         <div class="footer-wrap">
             <div class="nav_menu">
                 <ul>
@@ -232,7 +226,7 @@
                 </ul>
             </div>
             <div class="copyright">
-                <div class="logo"><img src="../04_image/common/footer_logo.gif" alt="footer_logo"></div>
+                <div class="logo"><img src ="../04_image/common/footer_logo.gif" alt="footer_logo"></div>
                 <p>
                     YG Entertainment의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.
                     <br>
@@ -244,13 +238,16 @@
     </div>
 
     <script>
+        //게시물 클릭 시 상세내용 보여주는 이벤트
         $(".list_main").find("a").click(function() {
             $(this).parent().next(".list_sub").slideToggle();
         });
 
+        //탭 메뉴 클릭시 탭 속성 변경, 해당 게시물로 이동
         var tabs = $(".noti_tap>ul>li");
-
         tabs.click(function() {
+            $(".list_sub").hide();
+            
             var idx = $(this).index();
 
             selectTap(idx);
@@ -258,7 +255,6 @@
         });
 
         function selectTap(idx) {
-
             for (var i = 0; i < tabs.length; i++) {
                 tabs.eq(i).css("background-color", "#ebebeb");
                 tabs.eq(i).css("border-bottom", "1px solid #ebebeb");
@@ -267,12 +263,11 @@
                 "background-color": "white",
                 "border-bottom": "2px solid white"
             });
-
         }
 
         function selectContents(idx) {
-            $(".noti_cont").hide();
-            $(".noti_cont").eq(idx).show();
+            $(".noti_cont1").hide();
+            $(".noti_cont1").eq(idx).show();
         }
 
         function init() {
@@ -283,7 +278,6 @@
         $(document).ready(function() {
             init();
         });
-
     </script>
 
 </body>
