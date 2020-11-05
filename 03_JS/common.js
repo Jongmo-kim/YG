@@ -16,18 +16,18 @@ $('#nav-icon').on('click', function () {
     
 });
 $(window).on('resize', function () {
-    var windowWidth = $(window).width();
-    var menubar = $('.menuBar');
-
-    if (windowWidth > 719 && $(menubar).css('display') == 'flex') {
-        toggleNavIcon();
-        toggleContentFade();
-        toggleLogoFade();
-        $(menubar).css('display', 'inline-block');
-    }
-    if (windowWidth < 719 && $(menubar).css('display') == 'inline-block') {
-        $(menubar).css('display', 'none');
-    }
+//    var windowWidth = $(window).width();
+//    var menubar = $('.menuBar');
+//
+//    if (windowWidth > 719 && $(menubar).css('display') == 'flex') {
+//        toggleNavIcon();
+//        toggleContentFade();
+//        toggleLogoFade();
+//        $(menubar).css('display', 'inline-block');
+//    }
+//    if (windowWidth < 719 && $(menubar).css('display') == 'inline-block') {
+//        $(menubar).css('display', 'none');
+//    }
 });
 function toggleContentFade() {
     var content = $('.container');
