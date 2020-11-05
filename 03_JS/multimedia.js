@@ -1,5 +1,5 @@
 var tabs = $(".tab>li>a");
-var listBoxTabs = $(".btn-wrap>ul>li");
+var listBoxTabs = $(".btn-wrap>ul>li>a");
 var listBoxs = $(".list-box");
 
 function init(idx) {
