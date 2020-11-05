@@ -134,9 +134,12 @@
 					</form>
 				</div>
 				<div class="btn-wrap">
-					<button>WALLPAPER</button>
-					<button>SCREENSAVER</button>
+					<ul>
+						<li>WALLPAPER</li>
+						<li>SCREENSAVER</li>
+					</ul>
 				</div>
+				<!-- WALLPAPER -->
 				<div class="list-box">
 					<ul>
 						<li>
@@ -251,6 +254,101 @@
 						</li>
 					</ul>
 				</div>
+
+				<!-- SCREENSAVER -->
+				<div class="list-box">
+					<ul>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_bigbang_09_special_edition.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_bigbang_08_tonight_mv.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_bigbang_07_tonight.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_gdtop_01.gif" alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_ygfamily_02_2010ygcon.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_taeyang_04.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_taeyang_03.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_taeyang_02.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_taeyang_01.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+						<li>
+							<div class="img">
+								<img src="https://www.ygfamily.com/upload/artists/download/img/scr_bigbang_06.gif"
+									alt="">
+							</div>
+							<ul class="btn-Download">
+								<li><button>DOWNLOAD</button></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<hr>
 
@@ -295,12 +393,20 @@
 
 	<script>
 		$(function () {
-			init(1);
+			init(0);
+			selectTab(1);
 
 			tabs.click(function () {
 				var idx = tabs.index(this);
 
 				selectTab(idx);
+			});
+
+			listBoxTabs.click(function() {
+				var idx = listBoxTabs.index(this);
+
+				selectListBoxTab(idx);
+				contents(idx);
 			});
 		});
 	</script>
