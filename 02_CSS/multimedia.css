@@ -117,8 +117,27 @@ iframe {
 
 /* DownLoadList */
 .btn-wrap {
-	margin-top: 10px;
+	margin-top: 15px;
+}
+
+.btn-wrap>ul {
+	margin-left: 350px;
+}
+
+.btn-wrap>ul>li {
+	width: 150px;
+	height: 25px;
 	text-align: center;
+	line-height: 25px;
+	border: 1px solid rgb(150, 150, 150);
+	color: #fff;
+	background-color: #000;
+	float: left;
+	box-sizing: border-box;
+}
+
+.btn-wrap>ul>li~li {
+	margin-left: 10px;
 }
 
 .list-box>ul {
@@ -147,4 +166,16 @@ iframe {
 	border: none;
 	font-size: 11px;
 	width: 78px;
+}
+
+.btn-Download {
+	margin-bottom: 20px;
+}
+
+.btn-Download>li>button {
+	width: 90%;
+	height: 25px;
+	color: #282828;
+	background-color: #C8C8C8;
+	border: none;
 }
