@@ -129,11 +129,8 @@ iframe {
 	height: 25px;
 	text-align: center;
 	line-height: 25px;
-	border: 1px solid rgb(150, 150, 150);
-	color: #fff;
-	background-color: #000;
+	border: 1px solid black;
 	float: left;
-	box-sizing: border-box;
 }
 
 .btn-wrap>ul>li~li {
@@ -159,7 +156,6 @@ iframe {
 	padding: 0;
 	width: calc(100%/2);
 	float: left;
-	/* box-sizing: content-box; */
 }
 
 .btn-download>li>button {
