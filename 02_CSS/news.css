@@ -1,4 +1,16 @@
-
+div.middleright a{
+    color:black;
+}
+div.middleright a:hover{
+    color:black;
+    text-decoration: underline;
+}
+.right>a{
+    color:black;
+}
+.right>a:hover{
+    color:black;
+}
 a{
     color:white;
 }
@@ -80,6 +92,7 @@ p.left{
 p.left1{
     display:inline-block;
     color:white;
+    margin-left:30px;
 }
 p.small{
     font-size: 5px;
@@ -157,13 +170,20 @@ button.TweetBtn{
     text-decoration: none;
     color:white;
 }
-button.facebookBtn{
+ button.TweetBtn:hover{ 
+    background-color:gray;
+ } 
+ button.facebookBtn{
     background-color: blue;
     outline: none;
     border:none;
     display:block;
     color:white;
     width:100px;
+}
+button.facebookBtn>a:not(:hover){
+    color:white;
+    text-decoration: none;
 }
 div.middleleft2picture{
     width:100px;
